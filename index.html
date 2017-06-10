@@ -1,0 +1,45 @@
+<!DOCTYPE html> <!-- On dit à notre navigateur que l'on va utiliser la dernière version d'HTML-->
+<html> <!-- On ouvre la balise HTML qui contiendra TOUT notre site -->
+  <head> <!-- On ouvre la balise HEAD qui n'affichera RIEN dans notre navigateur, à l'intérieur de cette balise, se trouvera tout ce dont on a besoin pour que notre site s'affiche correctement -->
+    <meta charset="utf-8"> <!-- Sans cette balise, les accents et caractères spéciaux ne s'afficheront pas correctement -->
+    <title>Mon premier template</title> <!-- Le contenu de cette balise s'affichera au niveau de l'onglet dans votre navigateur, pas sur la page -->
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css"> <!-- Cette balise fait le lien entre le HTML de ce fichier et le CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"> <!-- Cette balise appelle une "librairie" qui nous permettra d'afficher les logos des réseaux sociaux très simplement -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans+Condensed:300|Oswald" rel="stylesheet"> <!-- Cette balise appelle une "librairie" qui nous permettra de changer la police d'écriture du site -->
+  </head> <!-- On ferme la balise HEAD ouvertge ligne 3-->
+  <body>
+
+    <header>
+      <img src="https://s3.eu-west-2.amazonaws.com/codingdays/logo-color.svg">
+    </header>
+
+    <section class="carte_de_visite">
+      <article>
+        <ul>
+          <li>Matthieu TIRELLI</li>
+          <li>hello@coding-days.com</li>
+          <li>www.feminalink.com</li>
+          <li>Mentor & Lead Dev</li>
+          <li>06 42 10 10 10</li>
+          <li>06 26 91 44 07</li>
+        </ul>
+      </article>
+      <aside class="photo"></aside>
+    </section>
+
+    <footer class="social">
+      <a target="_blank" class="btn btn-facebook" href="http://facebook.com/fr.matthieu">
+        <i class="fa fa-facebook"></i>
+      </a>
+      <a target="_blank" class="btn btn-twitter" href="http://twitter.com/fr_matthieu">
+        <i class="fa fa-twitter"></i>
+      </a>
+      <a target="_blank" class="btn btn-linkedin" href="https://www.linkedin.com/in/matthieu-tirelli-b73b6965/">
+        <i class="fa fa-linkedin"></i>
+        <a target="_blank" class="btn btn-viadeo" href="http://fr.viadeo.com/fr/profile/virginie.laurencier1">
+          <i class="fa fa-viadeo"></i>
+      </a>
+    </footer>
+	<a href="template.zip" class="btn btn-download"><i class="fa fa-download"></i></a>
+  </body>
+</html>

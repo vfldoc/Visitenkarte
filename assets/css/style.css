@@ -1,0 +1,99 @@
+body {
+  background-image: url(https://coding-days.com/wp-content/uploads/2017/01/background_white.png);
+  background-size: cover;
+  color:#E15E36;
+  font-family: 'Arial';
+}
+
+header {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  padding: 8px;
+}
+
+li:hover {
+  background-color:rgba(0, 0, 0, .05);
+}
+
+a {
+  text-decoration: none;
+}
+
+.carte_de_visite {
+  background: rgba(142, 142, 142, .05);
+  width: 600px;
+  margin: 0 auto;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.photo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: url('http://media.motoservices.com/media/cache/vehicle_detail/media/vehicle/659/BMW-R1200R.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.social {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  border-radius: 50%;
+  padding:10px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  width: 15px;
+  height: 15px;
+  margin:5px;
+  color:white;
+  background-color:#b3b3b3;
+  transition: .5s ease;
+}
+
+.btn:hover {
+  transform: rotate(360deg);
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-twitter {
+  background-color: #00b2ff;
+}
+
+.btn-linkedin {
+  background-color: #0077B5;
+}
+
+.btn-viadeo {
+  background-color: #0077B5;
+  background-image: url('http://icon-icons.com/icons2/99/PNG/512/viadeo_socialnetwork_17398.png');
+  background-size: cover;
+}
+.btn-download {
+	background-color:#e76464;
+	position:fixed;
+	bottom: 42px;
+	right:42px;
+	width:50px;
+	height:50px;
+	font-size:20pt;
+	transition:none;
+}
